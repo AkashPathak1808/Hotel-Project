@@ -1,0 +1,275 @@
+.header {
+    padding: 5% 8%;
+    color: white;
+    background: url(https://ak.picdn.net/shutterstock/videos/21428350/thumb/1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+}
+
+.myheader {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: bold;
+    padding: 12% 0 2% 0;
+    color: #e8ba75;
+}
+
+.header .mypara {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 2rem;
+    padding: 3% 10%;
+}
+
+.headerlink {
+    color: white;
+    padding: 0 4% 0 4%;
+    font-size: 1.3rem;
+} 
+
+.navigation1 {
+    margin-left: 5%;
+}
+
+.header .btn {
+    margin: 2% 7%;
+}
+
+.mid {
+    text-align: center;
+    background-color: #ca5b47;
+    color: white;
+    padding: 5% 5%;
+}
+
+.mid p {
+    padding: 0 10% 2% 10%;
+    margin-bottom: 3%;
+}
+
+.features {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.middle {
+    padding: 5%;
+}
+
+.featuresicon {
+    color: #ca5b47;
+    margin-bottom: 5%;
+}
+
+.middle p {
+    padding: 2%;
+    font-weight: lighter;
+}
+
+.mydishes {
+    /* background-color: #ca5b47; */
+    text-align: center;
+    padding: 8% 0;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/21658243/thumb/1.jpghttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ08MxXcMKuZcxs54N3eIaRkaQ0pfw4ipwSNA&usqp=CAU);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.food {
+    width: 50%;
+    border-radius: 10%;
+}
+
+.footerside {
+    text-align: center;
+    padding: 5% 10%;
+    background-color: #ca5b47;
+    color: white;
+}
+
+.footerside .btn {
+    margin: 0 2%;
+}
+
+.footerside h1 {
+    margin-bottom: 3%;
+}
+
+footer {
+    text-align: center;
+    padding: 1% 0;
+    background-color: #b2b9b782;
+}
+
+footer .paragraph {
+    font-weight: lighter;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+button {
+    font-family: cursive;
+}
+
+.services {
+    padding: 2% 5%;    
+}
+
+.aboutServices {
+    padding: 1%;
+}
+
+.services img {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutPage {
+    padding: 4% 5% 2%;
+}
+
+.aboutTable{
+    margin: 3% 0 0;
+}
+
+.pages {
+    border-top: 10px solid rgb(33, 184, 211);
+    margin-top: 10%;
+}
+
+.helpPages {
+    border-top: 20px solid rgb(73, 228, 112);
+    height: 115%;
+    padding: 2% 0;
+}
+
+.helpSupport {
+    margin-bottom: 3%;
+}
+
+.forBooking {
+    padding: 5%;
+}
+
+.forBooking img {
+    width: 80%;
+}
+
+.contactPages {
+    background-image: linear-gradient(45deg, #328f8a, #08ac4b);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.contact {
+    text-align: center;
+    padding: 5%;
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg, #328f8a, #08ac4b);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    margin-bottom: 2%;
+    color: #FFFFFF;
+    font-size: 1rem;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.bookImg img {
+    margin: 20% 12%;
+}
+
+.welcomeImg img {
+    width: 100%;
+    height: 100%;
+    transition: width 2s, height 4s;
+}
+
+.socialIcons {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.icons1 {
+    margin: 0 2%;
+    color: black;
+}
+
+.nav-item {
+    padding: 3%;
+}
+
+.nav-item a:hover{
+    color: black;
+    transition-duration: 0.5s;
+    background-color: #edbf78;
+    border-radius: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-sec {
+    border-radius: 25%;
+    background-color: #328f8a;
+}
+
+.btn-sec:hover {
+    background-color: #f5e0c2;
+}
+
+@media screen and (max-width: 950px) {
+    .navigation1 {
+        padding: 0 35%;
+    }
+  }
