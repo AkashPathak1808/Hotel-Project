@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
 const _ = require("lodash");
+require('dotenv').config();
 
 const app = express();
 app.use(express.static("public"));
@@ -10,7 +11,8 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect("mongodb://localhost:27017/hotelDB", { useNewUrlParser: true });
+var uri = process.env.DB_PATH;
+mongoose.connect(uri, { useNewUrlParser: true });
 const hotelsSchema = {
     firstName: String,
     lastName: String,
@@ -50,6 +52,16 @@ app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
 });
 
-app.listen(3000, function (req, res) {
-    console.log("Server start.");
+let port = process.env.PORT;
+if (port == null || port ==""){
+    port = 3000;
+}
+
+app.listen(port, function (req, res) {
+    console.log("Server is ready.");
 });
+
+function newFunction() {
+    const dotenv = require("dotenv");
+    dotenv.config();
+}
